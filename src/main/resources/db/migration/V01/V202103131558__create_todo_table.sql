@@ -1,5 +1,5 @@
 create table ToDo(
-  id bigint serial,
+  id bigserial,
   title varchar(256),
   done bit
 );
