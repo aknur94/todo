@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class ToDo {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     Long id;
 
